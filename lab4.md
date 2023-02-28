@@ -43,6 +43,7 @@ The setup for ssh is already done so I used the ssh link. This is made possible 
 
 ### Step 6 Run the tests, demonstrating that they fail
 **Image:**
+
 ![Image](step3.jpg)
 
 **Keys Pressed:**
@@ -65,18 +66,23 @@ JUnit version 4.13.2
 The issue with this copy and pasted command is it uses a generic test type ArrayTests, which is not something we have inside our current lab7 test file. So I used ctrl w to first delete the word ArrayTests. Then I shift l, indicating a captilized L, I press tab so it would autocomplete it to ListExamples. However, it is still missing the word test. So similar process, ctrl + t then tab to make it autocomplete to Test. Now the whole phrase ListExamplesTest replaces ArrayTest, pressing enter would run this Junit test on the ListExamplesTest file.
 ### Step 7 Edit the code file to fix the failing test
 **Image:**
-![Image](firstMessage.jpg)
+![Image](step4.jpg)
 
 **Keys Pressed:**
-
+```
+# Keys Pressed
+nano <shift>l<tab>.j<tab><enter><down arrow key> until it reaches the error which occurs at index1 += 1;<right arrowkey> until it reaches the space after 1 <backspace>2<ctrl>+<x><y>
+```
 **Summary:**
 
 ### Step 8 Run the tests, demonstrating that they now succeed
 **Image:**
-![Image](firstMessage.jpg)
+![Image](step5.jpg)
 
 **Keys Pressed:**
-
+# Keys Pressed
+<up><enter><up><up><enter>
+```
 **Summary:**
 
 ### Step 9 Commit and push the resulting change to your Github account
