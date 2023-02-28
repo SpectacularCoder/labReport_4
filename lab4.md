@@ -10,7 +10,7 @@
 **Keys Pressed:** 
 ```
 # Keys Pressed
-<ctrl>+<c><ctrl>+<v>ssh cs15lwi23zz@ieng6.ucsd.edu <leftkey> until it reaches @ <backtab><backtab> akf <enter>
+<ctrl>+<c><ctrl>+<v>ssh cs15lwi23zz@ieng6.ucsd.edu <leftkey> until it reaches @ <backspace><backspace> akf <enter>
 ```
 
 **Summary:** For this particular step I went to Week 1 where we first learned about ssh. I copied and pasted the generic example of ssh login.
