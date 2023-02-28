@@ -71,7 +71,9 @@ The issue with this copy and pasted command is it uses a generic test type Array
 **Keys Pressed:**
 ```
 # Keys Pressed
-nano <shift>l<tab>.j<tab><enter><down arrow key> until it reaches the error which occurs at index1 += 1;<right arrowkey> until it reaches the space after 1 <backspace>2<ctrl>+<x><y>
+nano <shift>l<tab>.j<tab><enter><down arrow key> until it reaches the error 
+which occurs at index1 += 1;<right arrowkey> until it reaches the space after 
+1 <backspace>2<ctrl>+<x><y>
 ```
 **Summary:**
 
@@ -80,6 +82,7 @@ nano <shift>l<tab>.j<tab><enter><down arrow key> until it reaches the error whic
 ![Image](step5.jpg)
 
 **Keys Pressed:**
+```
 # Keys Pressed
 <up><enter><up><up><enter>
 ```
@@ -87,7 +90,7 @@ nano <shift>l<tab>.j<tab><enter><down arrow key> until it reaches the error whic
 
 ### Step 9 Commit and push the resulting change to your Github account
 **Image:**
-![Image](firstMessage.jpg)
+![Image](step6.jpg)
 
 **Keys Pressed:**
 
