@@ -112,6 +112,8 @@ git add . <up><enter> git push<enter>
 
 **Proof that Commit and Push Worked**
 ![Image](proof1.jpg)
+
 Using git log, you can see all the modifications done on this repo. As seen, the recent git commit with the message "fixed error" is the most recent update to the file indicating the git commit successfully committed the file.
 ![Image](proof2.jpg)
+
 Looking at the repo, it shows the file classes which indicates that they were compiled. It also indicates that it is 1 commit ahead of the original repo. This indicates a successful commit and push has been made on this repo.
