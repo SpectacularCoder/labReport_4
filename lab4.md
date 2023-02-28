@@ -88,6 +88,7 @@ Once at the error, I used the right arrowkey to navigate to the space before the
 
 ### Step 8 Run the tests, demonstrating that they now succeed
 **Image:**
+
 ![Image](step5.jpg)
 
 **Keys Pressed:**
