@@ -50,7 +50,8 @@ The setup for ssh is already done so I used the ssh link. This is made possible 
 **Keys Pressed:**
 ```
 # Keys Pressed
-cd l<tab><ctrl>+<c><ctrl>+v><enter><ctrl>+<c><ctrl>+v><ctrl><w><shift>l<tab><shift>t<tab><enter>
+cd l<tab><ctrl>+<c><ctrl>+v><enter><ctrl>+<c><ctrl>+v>
+<ctrl><w><shift>l<tab><shift>t<tab><enter>
 ```
 **Summary:** I typed cd l and pressed tab to automate so it autocompletes l to lab7. Then I went back to Week 3 lab about compiling and running junit tests through the command line. I copy and pasted:
 ```
@@ -60,7 +61,8 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 This command will first compile all java files within lab7. Then I went back to Week 3 lab to copy the Junit test command.
 ```
 # code block
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar 
+org.junit.runner.JUnitCore ArrayTests
 JUnit version 4.13.2
 ```
 
