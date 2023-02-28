@@ -109,3 +109,9 @@ Once at the error, I used the right arrowkey to navigate to the space before the
 git add . <up><enter> git push<enter>
 ```
 **Summary:** I did git add . to add the new or changed files to the git staging area to prompt the abilities of git commit. I called git commit -m "fixed error" earlier before calling git add . which caused a issue since git add . is needed for git commit to work. However, because now git commit -m "fixed error" is in my command history I can simply press tab and enter to run that command without retyping it. Next I simply typed git push to finally push the change and commit to my github repo.
+
+**Proof that Commit and Push Worked**
+![Image](proof1.jpg)
+Using git log, you can see all the modifications done on this repo. As seen, the recent git commit with the message "fixed error" is the most recent update to the file indicating the git commit successfully committed the file.
+![Image](proof2.jpg)
+Looking at the repo, it shows the file classes which indicates that they were compiled. It also indicates that it is 1 commit ahead of the original repo. This indicates a successful commit and push has been made on this repo.
