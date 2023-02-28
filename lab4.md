@@ -75,7 +75,16 @@ nano <shift>l<tab>.j<tab><enter><down arrow key> until it reaches the error
 which occurs at index1 += 1;<right arrowkey> until it reaches the space after 
 1 <backspace>2<ctrl>+<x><y>
 ```
-**Summary:**
+**Summary:** I typed nano, shift l to capitlize to L then pressed tab to make it autocomplete to ListExamples, I typed . and j and pressed tab to make it autocomplete to ListExamples.java. To navigate the file through nano, I pressed down arroy key until I reached the error. 
+
+Error:
+```
+# code block
+while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index1 += 1;
+```
+Once at the error, I used the right arrowkey to navigate to the space before the 1. I press backtab to delete the 1, and pressed 2 to ultimately fix the error. With the error fixed, I press ctrl x to exit out of nano and y to confirm yes that I want to exit out.
 
 ### Step 8 Run the tests, demonstrating that they now succeed
 **Image:**
@@ -86,12 +95,16 @@ which occurs at index1 += 1;<right arrowkey> until it reaches the space after
 # Keys Pressed
 <up><enter><up><up><enter>
 ```
-**Summary:**
+**Summary:** To test if the error is fixed, I simply pressed up and enter to recompile my code as the command for compiling java files in in my history. Then I clicked up, up to get the the command to run the junit test on ListExamplesTests, I press enter and it runs the code with no errors now.
 
 ### Step 9 Commit and push the resulting change to your Github account
 **Image:**
+
 ![Image](step6.jpg)
 
 **Keys Pressed:**
-
-**Summary:**
+```
+# Keys Pressed
+git add . <up><enter> git push<enter>
+```
+**Summary:** I did git add . to add the new or changed files to the git staging area to prompt the abilities of git commit. I called git commit -m "fixed error" earlier before calling git add . which caused a issue since git add . is needed for git commit to work. However, because now git commit -m "fixed error" is in my command history I can simply press tab and enter to run that command without retyping it. Next I simply typed git push to finally push the change and commit to my github repo.
