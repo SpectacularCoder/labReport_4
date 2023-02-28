@@ -20,9 +20,17 @@ ssh cs15lwi23akf@ieng6.ucsd.edu
 ![Image](step2.jpg)
 
 **Keys Pressed:**
-<up>
+```
+# Keys Pressed
+<up><ctrl><v>git@github.com:SpectacularCoder/lab7.git
+```
   
-**Summary:** I went to gitHub first to fork the repository then I took the ssh link of the forked repository. The setup for ssh is already done in the steps leading 
+**Summary:** 
+I pressed up, because before I completed this cloning step I messed up my git clone. However, because of this I can simply use the up key as now the git clone command is saved in my history. With this, I press ctrl v to paste the ssh link to start the cloning process.
+
+***Why Use SSH link?***
+
+The setup for ssh is already done so I used the ssh link. This is made possible because in Week 7 Lab, we generated a SSH github key that we attached into out gitHub account. This will essentially make the process of pushing and committing a lot eaiser than doing it in regular clone setting without the use of a ssh key.
 
 ### Step 6 Run the tests, demonstrating that they fail
 **Image:**
